@@ -7,59 +7,90 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <title>New page</title>
-    <link rel="shortcut icon" href="favicon.ico">
+    <title>Index</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
 
     <!-- build:css -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <!-- endbuild -->
+    <link rel="stylesheet" href="assets/css/main.css">  
+    <!-- endbuild -->      
       
     <link rel="stylesheet" href="assets/css/theme.css">
-      
+
   </head>
 
   <body>
-      
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href=".">BASIC</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="newpage.html">Another Page</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
-        </div>
-    </nav>
-      
-    <div class="container">
-      <div class="text-center">
-          <h1 class="mt-5">HOMEPAGE</h1>
-          <p class="lead">Kickstart your project. Visit <a target="_blank" href="https://bootstrapstarter.com">BootstrapStarter.com</a> for more projects. Good luck!</p>
-          <img src="assets/img/bootstrapstarter.jpg">
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
-    </div>
+    </nav>
+    
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron bg-white">
+        <div class="container">
+          <h1 class="display-3">Boilerplate</h1>
+          <p>This is a Bootstrap 4 Boilerplate with Sass, concatenation, minification, autoprefixer, html blocks replacer, sourcemaps, browser-sync, git and gulp task runner.</p>
+          <p><a class="btn btn-primary btn-lg" href="https://bootstrapstarter.com/bootstrap-templates/template-basic-bootstrap-html/" role="button">Learn more &raquo;</a></p>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+          <img class="img-fluid" src="https://images.unsplash.com/photo-1579032365451-d20e00c0ed23?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+          </div>
+          <div class="col-md-4">
+            <img class="img-fluid" src="https://images.unsplash.com/photo-1579032365437-9f9d275b0db0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+          </div>
+          <div class="col-md-4">
+            <img class="img-fluid"  src="https://images.unsplash.com/photo-1579033060982-1bb5b083f4fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+          </div>
+        </div>
+
+      </div> <!-- /container -->
+
+    </main>
+
+    <footer class="text-center mt-5">
+      <p>&copy; Bootstrap Starter with Gulp</p>
+    </footer>
 
     <!-- build:js -->
-    <script src="assets/js/main.js"></script>
-     <!-- endbuild -->
-    
+    <script src="assets/js/main.js"></script>   
+     <!-- endbuild -->    
+      
     <script src="assets/js/theme.js"></script>
+
   </body>
 
 </html>

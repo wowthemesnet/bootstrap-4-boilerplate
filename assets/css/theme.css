@@ -1,7 +1,7 @@
-/*
-Template Name: Bootstrap 4 Boilerplate
-Copyright: Sal, https://www.wowthemes.net, https://bootstrapstarter.com/
-*/
+body {
+  background: #fff; }
 
-body {padding-top:56px;}
-img {max-width:100%;}
+.navbar {
+  border-bottom: 1px solid #e9ecef; }
+
+/*# sourceMappingURL=theme.css.map */
