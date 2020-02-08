@@ -4,5 +4,5 @@ This is a Bootstrap 4.4.1 Boilerplate with Sass, concatenation, minification, au
 
 [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-basic-bootstrap-html/)
 
-![bootstrapstarter](assets/img/bootstrapstarter.jpg)
+![bootstrapstarter](assets/img/screenshot.jpg)
 
