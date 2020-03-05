@@ -1,28 +1,31 @@
 {
   "name": "bootstrap-4-boilerplate",
-  "version": "1.0.1",
-  "description": "A bootstrap 4 boiler plate with sass, concatenation, minification, autoprefixer, sourcemaps, browser-sync, git and gulp task runner",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
-  },
-  "author": "Sal",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wowthemesnet/bootstrap-4-boilerplate"
+  "version": "1.0.2",
+  "description": "Bootstrap 4+ boilerplate with Gulp4, SaSS, BrowserSync.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "bootstrap": "^4.4.1"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "del": "^5.1.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-cssmin": "^0.2.0",
-    "gulp-html-replace": "^1.6.2",
-    "gulp-rename": "^2.0.0",
+    "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2"
-  }
+    "bootstrap": "^4.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wowthemesnet/bootstrap-4-boilerplate.git"
+  },
+  "author": "Sal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wowthemesnet/bootstrap-4-boilerplate/issues"
+  },
+  "homepage": "https://github.com/wowthemesnet/bootstrap-4-boilerplate#readme"
 }

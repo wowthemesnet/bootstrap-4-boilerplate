@@ -1,0 +1,13 @@
+$theme-colors: (
+    "primary": #ff3a52,
+    "dark": #000000
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+    padding-top:56px;
+}
+.footer {
+    margin-top:3rem;
+}
