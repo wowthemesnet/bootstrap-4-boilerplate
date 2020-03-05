@@ -30,7 +30,7 @@ function watch() {
 
 function build() {
     return src('./src/**')
-      .pipe(dest('./public/'));
+      .pipe(dest('./docs/'));
   }
 
 exports.style = style;
